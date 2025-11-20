@@ -20,7 +20,7 @@ export function SiteHeader({ title }) {
                         className="hidden sm:flex"
                     >
                         <a href="" className="dark:text-foreground">
-                            GitHub
+                            Logout
                         </a>
                     </Button>
                 </div>

@@ -98,14 +98,14 @@ export default function DashboardSkeleton() {
                 {/* CONTENT */}
                 <div className="flex-1 p-6 max-w-6xl mx-auto w-full space-y-6">
                     {/* GRID OF LOADING CARDS */}
-                    <div className="border p-6 bg-white shadow-sm space-y-4">
+                    <div className="p-6 bg-white space-y-4">
                         <Skeleton className="h-5 w-28 bg-gray-300 rounded-md skeleton-shimmer" />
 
                         <div className="h-[260px] w-full bg-gray-200 rounded-md skeleton-shimmer" />
                     </div>
 
                     {/* TABLE-SHAPED SKELETON */}
-                    <div className="border p-6 bg-white shadow-sm space-y-3">
+                    <div className=" p-6 bg-white  space-y-3">
                         <Skeleton className="h-5 w-40 bg-gray-300 rounded-md skeleton-shimmer" />
 
                         {Array.from({ length: 8 }).map((_, i) => (

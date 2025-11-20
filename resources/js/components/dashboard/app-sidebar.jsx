@@ -35,7 +35,7 @@ export function AppSidebar({ ...props }) {
                             >
                                 <GraduationCap className="!size-5" />
                                 <span className="text-base font-semibold">
-                                    My School
+                                    Portfolio Dashboard
                                 </span>
                             </Link>
                         </SidebarMenuButton>
